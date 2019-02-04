@@ -2,6 +2,9 @@
 
 This is a module for the [MagicMirror²](https://github.com/MichMich/MagicMirror/).
 
+This is a forked project from here: https://github.com/manifestinteractive/MMM-Nest-Camera.
+All inital application logic is created there, I have just made a few minor tweaks based on my needs.
+
 Add Nest Cameras to Magic Mirror.
 
 ![screenshot](https://peter.build/magic-mirror/mmm-nest-camera.png?v=1.0.0)
@@ -10,7 +13,7 @@ Add Nest Cameras to Magic Mirror.
 
 ```bash
 cd /path/to/MagicMirror
-git clone https://github.com/manifestinteractive/MMM-Nest-Camera ./modules/MMM-Nest-Camera
+git clone https://github.com/rkrusz/MMM-Nest-Camera ./modules/MMM-Nest-Camera
 ```
 
 ## Generate Nest Token
@@ -35,7 +38,8 @@ var config = {
       config: {
         token: 'xxxxxxxxxx',
         size: 'medium',
-        whereFilter: ['Back Yard']
+        whereFilter: ['Back Yard'],
+		interval: 3000
       }
     }
   ]
