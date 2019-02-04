@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/manifestinteractive/MMM-Nest-Camera.git"
+    "url": "git+https://github.com/rkrusz/MMM-Nest-Camera.git"
   },
   "keywords": [
     "magicmirror2",
@@ -15,10 +15,9 @@
     "nest",
     "camera"
   ],
-  "author": "Peter Schmalfeldt",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/manifestinteractive/MMM-Nest-Camera/issues"
+    "url": "https://github.com/rkrusz/MMM-Nest-Camera/issues"
   },
-  "homepage": "https://github.com/manifestinteractive/MMM-Nest-Camera#readme"
+  "homepage": "https://github.com/rkrusz/MMM-Nest-Camera#readme"
 }
