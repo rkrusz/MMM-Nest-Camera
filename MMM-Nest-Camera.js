@@ -13,10 +13,10 @@ Module.register('MMM-Nest-Camera', {
 	defaults: {
 		whereFilter: null,
 		size: 'large',
-		mode: 'image'
+		mode: 'image',
+		interval: 3000
 	},
 
-	interval: null,
 	loaded: false,
 	error: null,
 	cameras: [],
@@ -24,9 +24,10 @@ Module.register('MMM-Nest-Camera', {
 	start: function() {
 		var self = this;
 
-    this.whereFilter = this.config.whereFilter;
-    this.size = this.config.size,
-    this.mode = this.config.mode;
+		this.whereFilter = this.config.whereFilter;
+		this.size = this.config.size;
+		this.mode = this.config.mode;
+		this.interval = this.config.interval;
 
 		getCameras(this.config, function (response) {
 			if (!response.success || !response.data) {
@@ -143,7 +144,7 @@ Module.register('MMM-Nest-Camera', {
 
 			setTimeout(function(){
 				self.scheduleUpdate();
-			}, 3000);
+			}, this.interval);
 		}
 	}
 });
