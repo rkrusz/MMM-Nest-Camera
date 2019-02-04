@@ -49,5 +49,6 @@ Option        | Type     | Default | Description
 `whereFilter` | `array`  | `null`  | Only show Cameras with these names ( leave `null` to show all )
 `size`        | `string` | `large` | One of the following sizes: `large`, `medium`, `small`, `mini`
 `mode`        | `string` | `image` | One of the following sizes: `image`, `video`
+`interval`    | `number` | `3000`  | Time (in milliseconds) until image is refreshed
 
 NOTE:  Due to Nest API restrictions you must have your cameras [shared publicly without a password](https://nest.com/support/article/How-do-I-make-my-Nest-Cam-video-public-or-private#without-password) for `video` mode to work. `video` mode currently requires you to click the video to start playback.  The embedded iframe URL is supposed to autoplay, but it looks like this is not supported inside electron without user interaction.
