@@ -2,9 +2,6 @@
 
 /* Magic Mirror
  * Module: MMM-Nest-Camera
- *
- * By Peter Schmalfeldt
- * MIT Licensed.
  */
 
 Module.register('MMM-Nest-Camera', {
