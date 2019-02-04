@@ -12,7 +12,7 @@ Module.register('MMM-Nest-Camera', {
 
 	defaults: {
 		whereFilter: null,
-		size: 'large',
+		size: 'small',
 		mode: 'image',
 		interval: 3000
 	},
