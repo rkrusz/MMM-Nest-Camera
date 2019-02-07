@@ -3,7 +3,7 @@
 This is a module for the [MagicMirror²](https://github.com/MichMich/MagicMirror/).
 
 This is a forked project from here: https://github.com/manifestinteractive/MMM-Nest-Camera.
-All inital application logic is created there, I have just made a few minor tweaks based on my needs.
+All initial application logic is created there, I have just made a few minor tweaks based on my needs.
 
 Add Nest Cameras to Magic Mirror.
 
